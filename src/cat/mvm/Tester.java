@@ -13,7 +13,7 @@ public class Tester {
 
 
     public static void main(String[] args){
-
+        //Square sq = new Square(5, "Red");
         //Instrucción para instanciar el Scanner.
         Scanner sc = new Scanner(System.in);
 
@@ -52,7 +52,7 @@ public class Tester {
         //------------------------------------------------------------------------
         //Printo missatge e introdueixo dades per teclat.
         // Class Person
-        Person p = new Person();
+       /* Person p = new Person();
 
         System.out.println(MSG_NAME);
         p.setName(sc.next());
@@ -67,12 +67,12 @@ public class Tester {
         p.setHeigth(sc.nextFloat());
 
         System.out.println(MSG_WIDTH);
-        p.setWidth(sc.nextFloat());
+        p.setWeight(sc.nextFloat());
 
         System.out.println("Nombre: " + p.getName() + "");
         System.out.println("Apellido: " + p.getUsername() + "");
         System.out.println("DNI: " + p.getDni() + "");
         System.out.println("Altura: " + p.getHeight() + " m");
-        System.out.println("Peso: " + p.getWidth() + " Kg");
+        System.out.println("Peso: " + p.getWeight() + " Kg");*/
     }
 }
