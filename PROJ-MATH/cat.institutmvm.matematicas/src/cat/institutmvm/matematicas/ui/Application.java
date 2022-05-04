@@ -6,7 +6,7 @@ import cat.institutmvm.aplicacio.utils.MyMath;
 public class Application {
     public static void main(String[] args) {
 
-        /*System.out.println("----------------Número PI i E----------------");
+        System.out.println("----------------Número PI i E----------------");
         System.out.println(MyMath.PI);
         System.out.println(MyMath.E);
 
@@ -56,7 +56,7 @@ public class Application {
         System.out.println("Name: " + wht.getName());
         System.out.println("R:" + wht.getRed() + " | G:" + wht.getGreen() + " | B:" + wht.getBlue());
         System.out.println(wht.toRGB());
-        System.out.println(wht.toRGB(false));*/
+        System.out.println(wht.toRGB(false));
 
         
     }
