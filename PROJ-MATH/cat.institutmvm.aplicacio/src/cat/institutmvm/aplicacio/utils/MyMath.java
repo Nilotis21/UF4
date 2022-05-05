@@ -8,10 +8,7 @@ public class MyMath {
 
     private static final Random RND = new Random();
 
-    private MyMath() {
-    }
-
-    ;
+    private MyMath() {}
 
     //Mètode que retorna si un número és par.
     public static boolean isEven(int value) {
