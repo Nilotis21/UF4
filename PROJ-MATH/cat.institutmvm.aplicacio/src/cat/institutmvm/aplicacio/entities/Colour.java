@@ -3,6 +3,7 @@ package cat.institutmvm.aplicacio.entities;
 import cat.institutmvm.aplicacio.utils.MyMath;
 
 public class Colour {
+    
     private String name;
     private int red;
     private int green;
@@ -11,7 +12,6 @@ public class Colour {
     public static final String NO_NAME = "Undefined";
     public static final String WHT_NAME = "Blanc";
     public static final String BLK_NAME = "Negre";
-
     public static final int MAX_VALUE = 255;
     public static final int MIN_VALUE = 0;
 
@@ -32,37 +32,21 @@ public class Colour {
         this(WHT_NAME, MAX_VALUE, MAX_VALUE, MAX_VALUE);
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) {this.name = name;}
 
-    public int getRed() {
-        return red;
-    }
+    public int getRed() {return red;}
 
-    public void setRed(int red) {
-        this.red = red;
-    }
+    public void setRed(int red) {this.red = red;}
 
-    public int getGreen() {
-        return green;
-    }
+    public int getGreen() {return green;}
 
-    public void setGreen(int green) {
-        this.green = green;
-    }
+    public void setGreen(int green) {this.green = green;}
 
-    public int getBlue() {
-        return blue;
-    }
+    public int getBlue() {return blue;}
 
-    public void setBlue(int blue) {
-        this.blue = blue;
-    }
+    public void setBlue(int blue) {this.blue = blue;}
 
     //Mètode que retorna la instancia d'un objecte Colour amb els paràmetres de color maximitzats.
     public static Colour random() {
