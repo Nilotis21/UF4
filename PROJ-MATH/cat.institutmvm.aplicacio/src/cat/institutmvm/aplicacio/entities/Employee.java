@@ -3,9 +3,7 @@ package cat.institutmvm.aplicacio.entities;
 import java.time.LocalDate;
 
 public class Employee {
-
-    //LocalDate birthDate // LocaleDate hireDate
-    //Local.now() // fecha del sistema
+    
     public static final int DEFAULT_PAYMENTS = 14;
     public static final double DEFAULT_SALARY = 1_500;
     private String code, firstName, lastName;
